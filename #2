@@ -16,3 +16,13 @@ def random_list(largest,size):
 #call the function
 l = random_list(10,100)
 print(l)
+# create function called minimum
+def minimum(l):
+  y = 10
+  for i in l:
+    if i < y:
+      y = i
+  return y
+ 
+
+print (maximum(l))
