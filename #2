@@ -25,4 +25,4 @@ def minimum(l):
   return y
  
 
-print (maximum(l))
+print (minimum(l))
